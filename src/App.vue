@@ -1,12 +1,12 @@
 <script setup lang="ts">
+  import Footer from './layout/Footer/index.vue'
+  import Header from './layout/Header/index.vue'
+  import Home from './views/Home/index.vue'
 </script>
 
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <Home></Home>
+  <Footer/>
 </template>
 
 <style>
